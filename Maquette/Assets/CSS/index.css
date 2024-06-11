@@ -1,0 +1,50 @@
+.scrollcards {
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollcards .card {
+    display: inline-block;
+    border: 0;
+    padding: 14px;
+    text-decoration: none;
+    height: auto; 
+    width: 30ch;
+}
+
+.card {
+    margin-right: 2.5ch;
+    margin-left: 2.5ch;
+    margin-bottom: 3.5ch;
+}
+
+.card-title {
+    white-space: normal;
+    text-align: center;
+    margin-top: 0.5ch;
+    margin-bottom: 1.5ch;
+}
+
+.t {
+    display: flex;
+}
+
+.p {
+    height: 5ch;
+    width: auto;
+    margin-right: 1ch;
+}
+
+.ClassementVotesContainer {
+    justify-content: space-evenly;
+}
+
+.ClassementVotes {
+    align-items: center;
+}
+
+.ClassementVotes p {
+    font-size: 3ch;
+    font-weight: bold;
+}
