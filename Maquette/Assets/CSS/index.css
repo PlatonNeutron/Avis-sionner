@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Rubik+Mono+One&display=swap');
+
+/* Classement */
 .scrollcards {
     background-color: #fff;
     overflow: auto;
@@ -47,4 +50,82 @@ div.scrollcards .card {
 .ClassementVotes p {
     font-size: 3ch;
     font-weight: bold;
+}
+
+#top1 {
+    width: 36ch;
+}
+
+#top2 {
+    width: 34ch;
+}
+
+#top3 {
+    width: 32ch;
+}
+
+/* Vote */
+
+.rubik-mono-one-regular {
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+body {
+    background-color: #1B1464;
+    color: #FA2F6E; 
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rubik Mono One'
+}
+
+img#affiche {
+    width: 300px;
+}
+
+.btn#connexion {
+    border: solid 2px #FA2F6E;
+    color: white;
+
+}
+
+.btn#connexion:hover{
+    background-color: #FA2F6E;
+}
+
+
+.btn#loupe {
+    border: solid 2px #FA2F6E;
+}
+.btn#loupe:hover {
+    background-color: #FA2F6E; 
+    }
+
+
+#like:hover {
+    background-color: green;
+}
+
+#dislike:hover {
+    background-color: red;
+}
+
+#next:hover {
+    background-color: gray;
+}
+.container{
+    text-align: center;
+}
+
+#recherche {
+    width: 100%;
+}
+
+#search {
+    width: 400px;
+    margin: 0 auto;
+    display: inline-block;
 }
