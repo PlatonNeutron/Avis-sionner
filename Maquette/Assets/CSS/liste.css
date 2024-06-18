@@ -1,0 +1,37 @@
+body {
+background-color: #1B1464;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.card {
+background-color: #5c64b5;
+}
+            
+h1 {
+color: #FA2F6E;
+}
+
+.collapse {
+background-color: #4b5296a4;
+}
+
+#deleteFilm {
+    width: auto;
+    height: 1ch;
+}
+
+#addFilm {
+    width: auto;
+    height: 3ch;
+}
+
+.btn {
+    background-color: #FA2F6E;
+}

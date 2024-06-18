@@ -32,6 +32,6 @@ function button_behavior(id){
     }
 
     let img = document.querySelector("#affiche"); 
-    img.src = "img/pirates_caraibes.png";
+    img.src = "./Assets/Images/pirates_caraibes.png";
 }
 

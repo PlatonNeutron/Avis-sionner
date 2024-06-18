@@ -1,0 +1,37 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1B1464;
+    color: #FA2F6E;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+.log{
+    position: absolute;
+    top : 25%; 
+    border: #FA2F6E 2px solid;
+    padding: 2ch;
+    border-radius: 2ch;
+}
+
+#connexion {
+    background-color: #FA2F6E;
+}
+
+#connexion a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+img{
+    position: relative;
+    left: -65ch;
+    margin-top: 2ch;
+}
